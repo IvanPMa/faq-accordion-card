@@ -55,8 +55,8 @@ body {
 .faq-images .box {
   display: block;
   position: absolute;
-  -webkit-transform: translate(-94px, 200px);
-          transform: translate(-94px, 200px);
+  -webkit-transform: translate(-94px, 198px);
+          transform: translate(-94px, 198px);
 }
 
 .faq-images .image-box {
@@ -86,6 +86,26 @@ body {
   color: #1d1e35;
 }
 
+.content-body {
+  width: 100%;
+  padding: 0 5rem;
+}
+
+.content-body-questions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #e7e7e9;
+}
+
 .content-body-questions h2 {
   font-weight: normal;
   font-size: 14px;
@@ -94,5 +114,15 @@ body {
 
 .content-body-questions p {
   display: none;
+}
+
+.content-body-questions button {
+  background-color: white;
+  border: none;
+}
+
+.content-body-questions button img {
+  width: 100%;
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */
