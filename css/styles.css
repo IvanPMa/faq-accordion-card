@@ -1,0 +1,53 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+  background-image: linear-gradient(#af67e9, #6565e7);
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  background-color: white;
+  border-radius: 1.2rem;
+}
+
+.faq-images {
+  background-image: url(../images/bg-pattern-desktop.svg);
+}
+
+.faq-images .box {
+  display: block;
+  position: absolute;
+  -webkit-transform: translate(-141px, 118px);
+          transform: translate(-141px, 118px);
+}
+
+.faq-images .image-box {
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */

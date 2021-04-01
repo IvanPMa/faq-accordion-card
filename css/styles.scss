@@ -1,0 +1,49 @@
+// Universal Box Sinzing with Inheritance
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+ 
+// Text colors 
+$very-dark: hsl(238, 29%, 16%);
+$of-red: hsl(14, 88%, 65%);  
+
+//Font
+$family:'Kumbh Sans', sans-serif;
+
+// Background colors
+$soft-violet: hsl(273, 75%, 66%);
+$soft-blue: hsl(240, 73%, 65%);
+body{
+    background-image: linear-gradient($soft-violet, $soft-blue);
+    font-family: $family;
+}  
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq{
+    display: flex;
+    width: 60%;
+    background-color: white;
+    border-radius: 1.2rem;
+
+    &-images{
+      background-image: url(../images/bg-pattern-desktop.svg);
+
+      .box{
+        display: block;
+        position: absolute;
+        // transform: translateX(-141px);
+        transform: translate(-141px,118px);
+      }
+      .image-box{
+        width: 100%;
+      }
+    }
+}
