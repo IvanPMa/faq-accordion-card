@@ -31,13 +31,21 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 60%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 57.5rem;
+  height: 31rem;
   background-color: white;
   border-radius: 1.2rem;
 }
 
 .faq-images {
   background-image: url(../images/bg-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  width: 60%;
+  overflow: hidden;
 }
 
 .faq-images .box {
@@ -49,5 +57,11 @@ body {
 
 .faq-images .image-box {
   width: 100%;
+}
+
+.faq-header {
+  margin-top: 4.063rem;
+  font-size: 1.625rem;
+  color: #1d1e35;
 }
 /*# sourceMappingURL=styles.css.map */

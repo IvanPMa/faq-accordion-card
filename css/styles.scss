@@ -29,13 +29,16 @@ body{
 
 .faq{
     display: flex;
-    width: 60%;
+    flex-direction: row;
+    width: 57.5rem;
+    height: 31rem;
     background-color: white;
     border-radius: 1.2rem;
-
     &-images{
       background-image: url(../images/bg-pattern-desktop.svg);
-
+      background-repeat: no-repeat;
+      width: 60%;
+      overflow: hidden;
       .box{
         display: block;
         position: absolute;
@@ -45,5 +48,12 @@ body{
       .image-box{
         width: 100%;
       }
+    }
+
+    &-header{
+      margin-top: 4.063rem;
+      font-size: 1.625rem;
+      color: $very-dark;
+    
     }
 }
