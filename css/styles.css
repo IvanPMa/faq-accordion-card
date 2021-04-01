@@ -12,6 +12,7 @@ body {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
   background-image: linear-gradient(#af67e9, #6565e7);
   font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
 }
 
 .container {
@@ -35,33 +36,63 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 57.5rem;
+  width: 60%;
   height: 31rem;
   background-color: white;
   border-radius: 1.2rem;
+  -webkit-box-shadow: 0px 0px 5px #1d1e35;
+          box-shadow: 0px 0px 5px #1d1e35;
 }
 
 .faq-images {
-  background-image: url(../images/bg-pattern-desktop.svg);
-  background-repeat: no-repeat;
-  width: 60%;
+  background-image: url("../images/bg-pattern-desktop.svg"), url("../images/illustration-woman-online-desktop.svg");
+  background-repeat: no-repeat,no-repeat;
+  background-position: right 1vw bottom -20vh,right 1vw bottom 10vh;
+  width: 45%;
   overflow: hidden;
 }
 
 .faq-images .box {
   display: block;
   position: absolute;
-  -webkit-transform: translate(-141px, 118px);
-          transform: translate(-141px, 118px);
+  -webkit-transform: translate(-94px, 200px);
+          transform: translate(-94px, 200px);
 }
 
 .faq-images .image-box {
   width: 100%;
 }
 
-.faq-header {
+.content {
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-header {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   margin-top: 4.063rem;
-  font-size: 1.625rem;
+  margin-left: 5rem;
+  font-size: 2rem;
   color: #1d1e35;
+}
+
+.content-body-questions h2 {
+  font-weight: normal;
+  font-size: 14px;
+  color: #4a4b5e;
+}
+
+.content-body-questions p {
+  display: none;
 }
 /*# sourceMappingURL=styles.css.map */
