@@ -90,6 +90,10 @@ body{
         font-size: 14px;
         color: $very-dark-grayish;
       }
+      h2:hover{
+        color: $sof-red;
+        cursor: pointer;
+      }
       p{
         display: none;
       }

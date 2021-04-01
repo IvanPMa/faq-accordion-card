@@ -112,6 +112,11 @@ body {
   color: #4a4b5e;
 }
 
+.content-body-questions h2:hover {
+  color: #f47c57;
+  cursor: pointer;
+}
+
 .content-body-questions p {
   display: none;
 }
