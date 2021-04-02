@@ -89,6 +89,7 @@ body {
 .content-body {
   width: 100%;
   padding: 0 5rem;
+  overflow: hidden;
 }
 
 .content-body-questions {
@@ -144,6 +145,7 @@ body {
 
 .content-body-questions p {
   display: none;
+  margin-top: 0px;
   color: #787887;
 }
 /*# sourceMappingURL=styles.css.map */

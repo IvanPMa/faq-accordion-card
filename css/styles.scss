@@ -79,6 +79,7 @@ body{
   &-body{
     width: 100%;
     padding: 0 5rem;
+    overflow: hidden;
     &-questions{
       display: flex;
       flex-direction: column;
@@ -111,15 +112,12 @@ body{
           }
           transition: 1s;
         }
-  
-        button:hover{
-          // transform: rotate(180deg);
-        }
       }
 
       
       p{
         display: none;
+        margin-top: 0px;
         color: $dark-grayis-blue;
       }
     }
