@@ -124,15 +124,12 @@ body {
 .content-body-questions button {
   background-color: white;
   border: none;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .content-body-questions button img {
   width: 100%;
   cursor: pointer;
-}
-
-.content-body-questions button:active {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
 }
 /*# sourceMappingURL=styles.css.map */
