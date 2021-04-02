@@ -105,6 +105,11 @@ body{
           width: 100%;
           cursor: pointer;
         }
+        // transition: 1s;
+      }
+
+      button:active{
+        transform: rotate(180deg);
       }
     }
   }

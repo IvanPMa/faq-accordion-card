@@ -130,4 +130,9 @@ body {
   width: 100%;
   cursor: pointer;
 }
+
+.content-body-questions button:active {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
 /*# sourceMappingURL=styles.css.map */
