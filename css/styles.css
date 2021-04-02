@@ -95,10 +95,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -106,30 +106,43 @@ body {
   border-bottom: 1px solid #e7e7e9;
 }
 
-.content-body-questions h2 {
+.content-body-questions-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content-body-questions-header h2 {
   font-weight: normal;
   font-size: 14px;
   color: #4a4b5e;
 }
 
-.content-body-questions h2:hover {
+.content-body-questions-header h2:hover {
   color: #f47c57;
   cursor: pointer;
 }
 
-.content-body-questions p {
-  display: none;
-}
-
-.content-body-questions button {
+.content-body-questions-header button {
   background-color: white;
   border: none;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-.content-body-questions button img {
+.content-body-questions-header button img {
   width: 100%;
   cursor: pointer;
+}
+
+.content-body-questions p {
+  display: none;
 }
 /*# sourceMappingURL=styles.css.map */

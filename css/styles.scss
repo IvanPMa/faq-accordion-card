@@ -81,35 +81,45 @@ body{
     padding: 0 5rem;
     &-questions{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-between;
       margin-bottom: 5px;
       border-bottom: 1px solid $light-grayish-blue;
-      h2{
-        font-weight: normal;
-        font-size: 14px;
-        color: $very-dark-grayish;
-      }
-      h2:hover{
-        color: $sof-red;
-        cursor: pointer;
-      }
-      p{
-        display: none;
-      }
-      button{
-        background-color: white;
-        border: none;
 
-        img{
-          width: 100%;
+
+      &-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        h2{
+          font-weight: normal;
+          font-size: 14px;
+          color: $very-dark-grayish;
+        }
+        h2:hover{
+          color: $sof-red;
           cursor: pointer;
         }
-        transition: 1s;
+        button{
+          background-color: white;
+          border: none;
+  
+          img{
+            width: 100%;
+            cursor: pointer;
+          }
+          transition: 1s;
+        }
+  
+        button:hover{
+          // transform: rotate(180deg);
+        }
       }
 
-      button:hover{
-        // transform: rotate(180deg);
+      
+      p{
+        display: none;
       }
     }
   }
