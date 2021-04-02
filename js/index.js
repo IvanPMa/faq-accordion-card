@@ -1,14 +1,22 @@
 'use strict'
-document.querySelector('.content-body-questions').addEventListener('click', ()=>{
-    var parrafo =document.querySelector('p');
-    var question = document.querySelector('h2');
+
+document.querySelector('.one').addEventListener('click', ()=>{
+    var answer =document.getElementById('answer-1')
+    var question = document.getElementById('question-1');
     
     
-    if(parrafo.style.display == "block"){
-        parrafo.style.display = "none"
+    if(answer.style.display == "block"){
+        answer.style.display = "none"
         question.style.fontWeight = "normal"
     } else{
-        parrafo.style.display = "block";
+        answer.style.display = "block";
         question.style.fontWeight = "bold"
     }
 });
+
+
+
+function showAnswer(){
+    
+}
+
