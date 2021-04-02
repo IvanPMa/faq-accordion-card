@@ -17,6 +17,34 @@ document.querySelector('.one').addEventListener('click', ()=>{
     showAnswer(answer,question);
     
 });
+// Second question
+document.querySelector('.two').addEventListener('click', ()=>{
+    var answer =document.getElementById('answer-2')
+    var question = document.getElementById('question-2');
+    showAnswer(answer,question);
+    
+});
+// Third question
+document.querySelector('.three').addEventListener('click', ()=>{
+    var answer =document.getElementById('answer-3')
+    var question = document.getElementById('question-3');
+    showAnswer(answer,question);
+    
+});
+// Four question
+document.querySelector('.four').addEventListener('click', ()=>{
+    var answer =document.getElementById('answer-4')
+    var question = document.getElementById('question-4');
+    showAnswer(answer,question);
+    
+});
+// Five question
+document.querySelector('.five').addEventListener('click', ()=>{
+    var answer =document.getElementById('answer-5')
+    var question = document.getElementById('question-5');
+    showAnswer(answer,question);
+    
+});
 
 
 
